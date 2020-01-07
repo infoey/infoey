@@ -27,7 +27,16 @@ if($("#copreater").css('display')== 'table-column'){
    window.location.href="http://www.infoey.com/";
   }
 });
-
+$(document)['ready'](function() {
+        $('#copreater')['html'](
+                "<a href='http://www.infoey.com/' target='_blank' id='copreater' rel='dofollow' title='By Infoey'>Designed By Infoey</a>"
+        );
+        setInterval(function() {
+                if (!$('#copreater:visible')['length']) {
+                        window['location']['href'] = 'http://www.infoey.com/'
+                }
+        }, 500)
+});
 const html = document.querySelector("html");
 const daynight = document.querySelector(".night-day");
 const input = document.querySelector(".switch");
