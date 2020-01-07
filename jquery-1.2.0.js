@@ -23,7 +23,6 @@ if($("#copreater").css('display')== 'table-column-group'){
 if($("#copreater").css('display')== 'table-column'){
    window.location.href="http://www.infoey.com/";
   }
-});
 window.onload = function() {
     var e = document.getElementById("copreater");
     if (e == null) {
