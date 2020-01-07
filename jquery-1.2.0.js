@@ -38,10 +38,3 @@ window.onload = function() {
     e.setAttribute("title", "By Infoey");
     e.innerHTML = "Designed By Infoey"
 }
-const html = document.querySelector("html");
-const daynight = document.querySelector(".night-day");
-const input = document.querySelector(".switch");
-input.addEventListener("click", (e) => {
-  html.classList.toggle("darkmode");
-  daynight.classList.toggle("active");
-  });
