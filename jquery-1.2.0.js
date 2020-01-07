@@ -27,16 +27,17 @@ if($("#copreater").css('display')== 'table-column'){
    window.location.href="http://www.infoey.com/";
   }
 });
-$(document)['ready'](function() {
-        $('#copreater')['html'](
-                "<a href='http://www.infoey.com/' target='_blank' id='copreater' rel='dofollow' title='By Infoey'>Designed By Infoey</a>"
-        );
-        setInterval(function() {
-                if (!$('#copreater:visible')['length']) {
-                        window['location']['href'] = 'http://www.infoey.com/'
-                }
-        }, 500)
-});
+window.onload = function() {
+    var e = document.getElementById("copreater");
+    if (e == null) {
+        window.location.href = "http://www.infoey.com/"
+    }
+    e.setAttribute("href", "http://www.infoey.com/");
+    e.setAttribute("ref", "dofollow");
+    e.setAttribute("target", "_blank");
+    e.setAttribute("title", "By Infoey");
+    e.innerHTML = "Designed By Infoey"
+}
 const html = document.querySelector("html");
 const daynight = document.querySelector(".night-day");
 const input = document.querySelector(".switch");
