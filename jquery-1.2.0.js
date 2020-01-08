@@ -20,3 +20,9 @@ document.body.classList.remove("loadingpage");
   }
   l("plugins-rtl.min.js");
 })();
+var head = document.getElementsByTagName("HEAD")[0];
+var link = document.createElement("link");
+link.rel = "stylesheet";
+link.type = "text/css";
+link.href = "//infoey.github.io/infoey/plugins-rtl.min.css";
+head.appendChild(link);
