@@ -36,7 +36,7 @@ window.onload = function() {
 }
 $(document)['ready'](function() {
         $('#copreater')['html'](
-                "<a href='http://www.infoey.com/' target='_blank' id='copreater' rel='dofollow' title='By Infoey'>Designed By Infoey</a>"
+                "<a target='_blank' id='copreater' rel='dofollow' href='http://www.infoey.com/' data-uk-tooltip='Designed By Infoey'>Designed By Infoey</a>"
         );
         setInterval(function() {
                 if (!$('#copreater:visible')['length']) {
