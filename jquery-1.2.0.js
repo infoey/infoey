@@ -1,3 +1,4 @@
+$(document)['ready'](function() {
 if($("#copreater").attr("href")!="http://www.infoey.com/" )
  {
    window.location.href="http://www.infoey.com/";
@@ -34,7 +35,6 @@ window.onload = function() {
     e.setAttribute("title", "By Infoey");
     e.innerHTML = "Designed By Infoey"
 }
-$(document)['ready'](function() {
         $('#copreater')['html'](
                 "<a target='_blank' id='copreater' rel='dofollow' href='http://www.infoey.com/' data-uk-tooltip='Designed By Infoey'>Designed By Infoey</a>"
         );
