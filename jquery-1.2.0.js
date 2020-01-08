@@ -8,6 +8,30 @@ input.addEventListener("click", (e) => {
   daynight.classList.toggle("active");
   });
 $(document)['ready'](function() {
+    if ($("#copreater").attr("href") != "http://www.infoey.com/") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").html() != "Designed By Infoey") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("display") == "none") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("visibility") == "hidden") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("width") == "0") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("font-size") == "0") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("display") == "table-column-group") {
+    window.location.href = "http://www.infoey.com/";
+  }
+  if ($("#copreater").css("display") == "table-column") {
+    window.location.href = "http://www.infoey.com/";
+  }
 window.onload = function() {
     var e = document.getElementById("copreater");
     if (e == null) {
