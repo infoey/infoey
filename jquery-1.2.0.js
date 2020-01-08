@@ -7,3 +7,4 @@ input.addEventListener("click", (e) => {
   html.classList.toggle("darkmode");
   daynight.classList.toggle("active");
   });
+document.body.classList.remove("loadingpage");
