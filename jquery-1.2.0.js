@@ -8,30 +8,23 @@ input.addEventListener("click", (e) => {
   daynight.classList.toggle("active");
   });
 $(document)['ready'](function() {
-if($("#copreater").attr("href")!="http://www.infoey.com/" )
- {
-   window.location.href="http://www.infoey.com/";
- }
-  if($("#copreater").html()!= 'Designed By Infoey'){
-   window.location.href="http://www.infoey.com/";
-  }
-if($("#copreater").css('display')== 'none'){
-   window.location.href="http://www.infoey.com/";
-  }
-if($("#copreater").css('visibility')== 'hidden'){
-   window.location.href="http://www.infoey.com/";
-  }
-if($("#copreater").css('width')== '0'){
-   window.location.href="http://www.infoey.com/";
-  }
-  if($("#copreater").css('font-size')== '0'){
-   window.location.href="http://www.infoey.com/";
-  }
-if($("#copreater").css('display')== 'table-column-group'){
-   window.location.href="http://www.infoey.com/";
-  }
-if($("#copreater").css('display')== 'table-column'){
-   window.location.href="http://www.infoey.com/";
-  }
-
+window.onload = function() {
+    var e = document.getElementById("copreater");
+    if (e == null) {
+        window.location.href = "http://www.infoey.com/"
+    }
+    e.setAttribute("href", "http://www.infoey.com/");
+    e.setAttribute("ref", "dofollow");
+    e.setAttribute("target", "_blank");
+    e.setAttribute("data-uk-tooltip", "Designed By Infoey");
+    e.innerHTML = "Designed By Infoey"
+}
+        $('#copreater')['html'](
+                "<a target='_blank' id='copreater' rel='dofollow' href='http://www.infoey.com/' data-uk-tooltip='Designed By Infoey'>Designed By Infoey</a>"
+        );
+        setInterval(function() {
+                if (!$('#copreater:visible')['length']) {
+                        window['location']['href'] = 'http://www.infoey.com/'
+                }
+        }, 500)
 });
