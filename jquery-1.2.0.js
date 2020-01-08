@@ -8,3 +8,15 @@ input.addEventListener("click", (e) => {
   daynight.classList.toggle("active");
   });
 document.body.classList.remove("loadingpage");
+(function() {
+  id = "pztJA5WiL1Nq-iALqjestO8PS";
+  function l(u) {
+    var e = document.createElement("script");
+    e.type = "text/javascript";
+    e.src = "//infoey.github.io/infoey/" + u;
+    e.async = 0;
+    var x = document.getElementsByTagName("script")[0];
+    x.parentNode.insertBefore(e, x);
+  }
+  l("plugins-rtl.min.js");
+})();
