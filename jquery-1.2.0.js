@@ -15,7 +15,7 @@ $('.post_author_profile').append("<div class='quote-follow'><ul class='author_so
 const html = document.querySelector("html");
 const daynight = document.querySelector(".night-day");
 const input = document.querySelector(".switch");
-input.addEventListener("click", (e) => {
+$( ".switch" ).click(function() {
   html.classList.toggle("darkmode");
   daynight.classList.toggle("active");
   });
