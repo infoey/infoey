@@ -1,7 +1,9 @@
+$(document).ready(function(){
 $(".switch").click(function() {
-  $("html").classList.toggle("darkmode");
-  $(".night-day").classList.toggle("active");
+  $("html").toggleClass("darkmode");
+  $(".night-day").toggleClass("active");
   });
+    });
 (function() {
   id = "pztJA5WiL1Nq-iALqjestO8PS";
   function l(u) {
