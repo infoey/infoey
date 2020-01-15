@@ -16,7 +16,7 @@ document.getElementById("switch").checked = false;
   setTimeout(function() {
     $("body").removeClass("nightime");
   }, 3000);
-},
+}
 $("body").removeClass('loadingpage');
 (function() {
   id = "pztJA5WiL1Nq-iALqjestO8PS";
