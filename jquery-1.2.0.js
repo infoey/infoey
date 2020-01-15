@@ -4,6 +4,19 @@ $(".switch").click(function() {
   $(".night-day").toggleClass("active");
   });
     });
+let date = new Date();
+var x = date.getHours();
+if (x == 21) {
+$("html").toggleClass("darkmode");
+$(".night-day").toggleClass("active");
+document.getElementById("switch").checked = false;
+  setTimeout(function() {
+    $("body").addClass("nightime");
+  }, 1000);
+  setTimeout(function() {
+    $("body").removeClass("nightime");
+  }, 3000);
+},
 $("body").removeClass('loadingpage');
 (function() {
   id = "pztJA5WiL1Nq-iALqjestO8PS";
