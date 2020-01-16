@@ -17,7 +17,7 @@ document.getElementById("switch").checked = false;
   setTimeout(function() {
     $("body").removeClass("nightime");
   }, 3000);
-} else if (x >= 05) {
+} if (x >= 05) {
 document.getElementById("switch").checked = true;
    $("html").removeClass("nightime");
     $(".night-day").removeClass("nightime");
