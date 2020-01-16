@@ -7,7 +7,7 @@ $(".switch").click(function() {
     });
 let date = new Date();
 var x = date.getHours();
-if (x >= 21) {
+if (x >= 21 + x <= 05) {
 $("html").toggleClass("darkmode");
 $(".night-day").toggleClass("active");
 document.getElementById("switch").checked = false;
@@ -17,7 +17,7 @@ document.getElementById("switch").checked = false;
   setTimeout(function() {
     $("body").removeClass("nightime");
   }, 3000);
-} if (x >= 05) {
+} if (x >= 06) {
 document.getElementById("switch").checked = true;
    $("html").removeClass("nightime");
     $(".night-day").removeClass("nightime");
