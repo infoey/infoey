@@ -7,7 +7,7 @@ $(".switch").click(function() {
     });
 let date = new Date();
 var x = date.getHours();
-if (x == 21) {
+if (x >= 21) {
 $("html").toggleClass("darkmode");
 $(".night-day").toggleClass("active");
 document.getElementById("switch").checked = false;
@@ -17,6 +17,10 @@ document.getElementById("switch").checked = false;
   setTimeout(function() {
     $("body").removeClass("nightime");
   }, 3000);
+} else if (x >= 05) {
+document.getElementById("switch").checked = true;
+   $("html").removeClass("nightime");
+    $(".night-day").removeClass("nightime");
 }
 (function() {
   id = "pztJA5WiL1Nq-iALqjestO8PS";
