@@ -7,7 +7,7 @@ $(".switch").click(function() {
     });
 let date = new Date();
 var x = date.getHours();
-if (x >= 21 + x <= 05) {
+if (x >= 21) {
 $("html").toggleClass("darkmode");
 $(".night-day").toggleClass("active");
 $('.switch').removeAttr('checked');
