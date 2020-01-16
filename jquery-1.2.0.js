@@ -7,9 +7,9 @@ $(".switch").click(function() {
     });
 let date = new Date();
 var x = date.getHours();
-if (x >= 21) {
-$("html").toggleClass("darkmode");
-$(".night-day").toggleClass("active");
+if (x >= 21 + x >= 00) {
+$("html").addClass("darkmode");
+$(".night-day").addClass("active");
 $('.switch').removeAttr('checked');
   setTimeout(function() {
     $("body").addClass("nightime");
