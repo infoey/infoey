@@ -5,23 +5,6 @@ $(".switch").click(function() {
   $(".night-day").toggleClass("active");
   });
     });
-let date = new Date();
-var x = date.getHours();
-if (x >= 21 + x >= 00) {
-$("html").addClass("darkmode");
-$(".night-day").addClass("active");
-$('.switch').removeAttr('checked');
-  setTimeout(function() {
-    $("body").addClass("nightime");
-  }, 1000);
-  setTimeout(function() {
-    $("body").removeClass("nightime");
-  }, 3000);
-} if (x >= 06) {
-$('.switch').attr('checked', true);
-   $("html").removeClass("nightime");
-    $(".night-day").removeClass("nightime");
-}
 (function() {
   id = "pztJA5WiL1Nq-iALqjestO8PS";
   function l(u) {
