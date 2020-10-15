@@ -6,18 +6,25 @@
   "active" : true,
   "allowedwebsites" : [
     {
-      "site" : "Molecule Man",
-      "site" : 29,
+      "site" : "Molecule Man"
     },
     {
-      "site" : "Madame Uppercut",
-      "site" : 39,
       "site" : "Jane Wilson"
     },
     {
-      "site" : "Eternal Flame",
-      "site" : 1000000,
-      "site" : "Unknown"
+      "site" : "Eternal Flame"
+    },
+    {
+      "site" : "somehere"
+    },
+    {
+      "site" : "here also"
+    },
+    {
+      "site" : "check here as well"
+    },
+    {
+      "site" : "dont left here"
     }
   ]
 }
