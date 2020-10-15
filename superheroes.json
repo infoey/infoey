@@ -1,39 +1,13 @@
 {
-  "url" : "Super Hero Squad",
-  "url" : "Metro City",
-  "url" : "2016",
-  "url" : "Super tower",
-  "active" : true,
-  "allowedwebsites" : [
-    {
-      "site" : "Molecule Man"
-    },
-    {
-      "site" : "Jane Wilson"
-    },
-    {
-      "site" : "Eternal Flame"
-    },
-    {
-      "site" : "somehere"
-    },
-    {
-      "site" : "here also"
-    },
-    {
-      "site" : "check here as well"
-    },
-    {
-      "site" : "dont left here"
-    }
-  ], 
-"websites" : [
-    {
-      "site" : "Molecule Man",
-      "site" : "check here as well",
-      "site" : "dont left here",
-      "site" : "Jane Wilson",
-      "site" : "Eternal Flame"
-    }
+  "mywebsite" : "https://infoey.com",
+  "websitename" : "Infoey",
+  "allowedsites" : [
+    {"site" : "Molecule Man"},
+    {"site" : "Jane Wilson"},
+    {"site" : "Eternal Flame"},
+    {"site" : "somehere"},
+    {"site" : "here also"},
+    {"site" : "check here as well"},
+    {"site" : "dont left here"}
   ]
 }
