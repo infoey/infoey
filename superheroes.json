@@ -1,8 +1,8 @@
 {
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "url" : "Super Hero Squad",
+  "url" : "Metro City",
+  "url" : "2016",
+  "url" : "Super tower",
   "active" : true,
   "members" : [
     {
