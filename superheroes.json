@@ -9,5 +9,6 @@
     {"site" : "here also"},
     {"site" : "check here as well"},
     {"site" : "dont left here"}
-  ]
+  ],
+  "allowed" : ["Molecule Man","Jane Wilson","Eternal Flame","somehere","here also","check here as well","dont left here"]
 }
